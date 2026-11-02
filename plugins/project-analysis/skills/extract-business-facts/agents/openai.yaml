@@ -1,0 +1,3 @@
+interface:
+  display_name: "代码业务事实提取"
+  short_description: "从整项目或局部功能的真实代码路径提取有证据和适用边界的业务事实"

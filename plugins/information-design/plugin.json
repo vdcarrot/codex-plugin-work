@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "information-design",
+  "version": "0.1.0",
+  "description": "按完整问题和信息关系，将复杂材料组织为从整体到细节、可逐步深入的知识结构。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "复杂信息组织",
+        "shortDescription": "显式调用，将复杂材料组织为整体到细节的多层信息"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "project-analysis",
+  "version": "0.1.0",
+  "description": "从项目代码中核实业务行为、条件、规则与边界，形成可追溯的业务事实。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "项目业务分析",
+        "shortDescription": "从整项目或局部功能的代码中提取有依据的业务事实"
+      }
+    }
+  }
+}
